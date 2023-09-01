@@ -7,17 +7,22 @@
             echo 'estoy en home';
         }
 
-        public function listar()
+        public function all()
         {
             echo 'estoy en listar';
         }
 
-        public function modificar()
+        public function update()
         {
             echo 'estoy en modificar';
         }
 
-        public function nuevo()
+        public function create()
+        {
+            echo 'estoy en nuevo';
+        }
+
+        public function delete()
         {
             echo 'estoy en nuevo';
         }
